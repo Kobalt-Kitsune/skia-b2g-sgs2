@@ -253,7 +253,8 @@ LOCAL_SRC_FILES:= \
 	src/utils/SkParsePath.cpp \
 	src/utils/SkProxyCanvas.cpp \
 	src/utils/SkSfntUtils.cpp \
-	src/utils/SkUnitMappers.cpp
+	src/utils/SkUnitMappers.cpp \
+    src/views/SkTextBox.cpp
 
 ifeq ($(TARGET_ARCH),arm)
 
